@@ -13,6 +13,8 @@ namespace CircularBuffer
         private int tail;
         private T[] buffer;
 
+        private int fakeVar;
+
         [NonSerialized()]
         private object syncRoot;
 
